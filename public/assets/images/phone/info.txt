@@ -1,0 +1,4 @@
+Responsieve afbeeldingen:
+Phone:
+Portrait: 480x800px
+Landscape: 800x480px

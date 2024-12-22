@@ -1,0 +1,4 @@
+Responsieve afbeeldingen:
+Tablet:
+Portrait: 768x1024px
+Landscape: 1024x768px

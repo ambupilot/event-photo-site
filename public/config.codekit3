@@ -25,6 +25,18 @@
       "oAP" : "\/api\/reviews.php",
       "oF" : 0
     },
+    "\/assets\/css\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -49,6 +61,38 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/images\/full\/info.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/full\/info.txt",
+      "oF" : 0
+    },
+    "\/assets\/images\/main\/info.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/main\/info.txt",
+      "oF" : 0
+    },
+    "\/assets\/images\/phone\/info.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/phone\/info.txt",
+      "oF" : 0
+    },
+    "\/assets\/images\/tablet\/info.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/tablet\/info.txt",
+      "oF" : 0
+    },
     "\/assets\/js\/reviews-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -70,14 +114,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/contact.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/contact.php",
-      "oF" : 0
     },
     "\/index.php" : {
       "cB" : 0,
