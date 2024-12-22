@@ -14,7 +14,7 @@ $query = $pdo->query('SELECT * FROM reviews ORDER BY date DESC');
 $reviews = $query->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<main class="container mx-auto px-4 py-10">
+<section class="container mx-auto px-4 py-10">
     <h2 class="text-2xl font-bold mb-6">Recensies</h2>
     <?php foreach ($reviews as $review): ?>
         <div class="mb-4">
@@ -25,6 +25,6 @@ $reviews = $query->fetchAll(PDO::FETCH_ASSOC);
             <div class="text-yellow-500"><?= str_repeat('★', $review['rating']); ?></div>
         </div>
     <?php endforeach; ?>
-</main>
+    </section>
 
 <?php include '../includes/footer.php'; ?>

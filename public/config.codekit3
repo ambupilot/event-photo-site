@@ -93,6 +93,17 @@
       "oAP" : "\/assets\/images\/tablet\/info.txt",
       "oF" : 0
     },
+    "\/assets\/js\/cookie-consent.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/cookie-consent-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/reviews-min.js" : {
       "bF" : 0,
       "ft" : 64,

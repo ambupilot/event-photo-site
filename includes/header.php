@@ -34,11 +34,19 @@
     </script>
 
     <link href="/assets/css/styles.css" rel="stylesheet">
+    <script src="/assets/js/cookie-consent.js" defer></script>
+
 </head>
-<body>
-<header class="bg-white shadow">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Event Photo Experiences</h1>
-        <?php include 'menu.php'; ?>
-    </div>
-</header>
+<body class="flex flex-col min-h-screen">
+
+ <!-- Header -->
+ <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Event Photo Experiences</h1>
+            <?php include 'menu.php'; ?>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Content wordt hier geplaatst -->
