@@ -1,4 +1,8 @@
-<?php include '../includes/header.php'; ?>
+<?php 
+// vars:
+$pageTitle = "Over ons pagina";
+
+include '../includes/header.php'; ?>
 <main>
     <h2>About Us</h2>
 </main>

@@ -1,6 +1,6 @@
 <?php
-include 'includes/header.php';
-include 'includes/graphql.php';
+include '../includes/header.php';
+include '../includes/graphql.php';
 
 $query = <<<GRAPHQL
 {
@@ -28,4 +28,4 @@ $reviews = fetchGraphQLData($query);
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
