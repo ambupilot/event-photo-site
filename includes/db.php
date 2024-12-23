@@ -1,11 +1,13 @@
 <?php
 // Controleer het gebruikte domein
 $host = $_SERVER['HTTP_HOST'];
+//echo $host . '|';
 
 // Database-instellingen
-if ($host === 'event-photo-site') {
+if ($host === 'event-photo-site:8890') {
     // Instellingen voor de testserver
-    $host = 'localhost';
+    $host = 'event-photo-site:8890';
+    $dbhost = 'localhost';
     $dbname = 'kerssing_snapshowprint';
     $username = 'martijn'; // Pas dit aan naar je MySQL-gebruikersnaam
     $password = 'kerssing'; // Pas dit aan naar je MySQL-wachtwoord
@@ -13,6 +15,7 @@ if ($host === 'event-photo-site') {
 } else {
     // Instellingen voor de liveserver
     $host = 'localhost';
+    $dbhost = 'localhost';
     $dbname = 'njdvuexwzd';
     $username = 'njdvuexwzd'; // Pas dit aan naar je MySQL-gebruikersnaam
     $password = 'pZ479uhzV4'; // Pas dit aan naar je MySQL-wachtwoord
@@ -21,7 +24,7 @@ if ($host === 'event-photo-site') {
 
 // Maak een databaseverbinding
 try {
-    $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4";
+    $dsn = "mysql:host=$dbhost;dbname=$dbname;charset=utf8mb4";
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Verbinding succesvol!";
