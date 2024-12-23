@@ -34,7 +34,7 @@ try {
 
 
 /*
-// oude local/test verbinfing
+// oude local/test verbinding
 
 $host = 'localhost';
 $dbname = 'kerssing_snapshowprint';
