@@ -1,1 +1,4 @@
 /node_modules
+/vendor
+/tailwind.css
+/public/assets/css/styles.css
