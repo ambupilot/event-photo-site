@@ -10,7 +10,8 @@ $pageSchemaType = "WebPage"; // Schema.org type
 include '../includes/db.php';
 include '../includes/header.php';
 
-$query = $pdo->query('SELECT * FROM reviews ORDER BY date DESC');
+//$query = $pdo->query('SELECT * FROM reviews ORDER BY date DESC');
+$query = $pdo->query('SELECT * FROM reviews ORDER BY RAND()');
 $reviews = $query->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
@@ -20,7 +21,7 @@ $reviews = $query->fetchAll(PDO::FETCH_ASSOC);
         <div class="mb-4">
             <h3 class="text-lg font-semibold"><?= htmlspecialchars($review['name']); ?></h3>
             <p class="text-gray-700"><?= htmlspecialchars($review['comment']); ?></p>
-            <small class="text-gray-500"><?= date('j F Y', strtotime($review['date'])); ?></small>
+            <!-- <small class="text-gray-500"><?//= date('j F Y', strtotime($review['date'])); ?></small> -->
 
             <div class="text-yellow-500"><?= str_repeat('★', $review['rating']); ?></div>
         </div>
