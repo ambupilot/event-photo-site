@@ -11,7 +11,7 @@ if ($host === 'event-photo-site:8890') {
     $dbname = 'kerssing_snapshowprint';
     $username = 'martijn'; // Pas dit aan naar je MySQL-gebruikersnaam
     $password = 'kerssing'; // Pas dit aan naar je MySQL-wachtwoord
-    echo "Verbinding maken met de testserver...\n";
+    //echo "Verbinding maken met de testserver...\n";
 } else {
     // Instellingen voor de liveserver
     $host = 'localhost';
@@ -19,7 +19,7 @@ if ($host === 'event-photo-site:8890') {
     $dbname = 'njdvuexwzd';
     $username = 'njdvuexwzd'; // Pas dit aan naar je MySQL-gebruikersnaam
     $password = 'pZ479uhzV4'; // Pas dit aan naar je MySQL-wachtwoord
-    echo "Verbinding maken met de liveserver...\n";
+    //echo "Verbinding maken met de liveserver...\n";
 }
 
 // Maak een databaseverbinding
@@ -27,7 +27,7 @@ try {
     $dsn = "mysql:host=$dbhost;dbname=$dbname;charset=utf8mb4";
     $pdo = new PDO($dsn, $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Verbinding succesvol!";
+    //echo "Verbinding succesvol!";
 } catch (PDOException $e) {
     echo "Fout bij het verbinden met de database: " . $e->getMessage();
 }
